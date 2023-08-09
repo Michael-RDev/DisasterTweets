@@ -18,7 +18,7 @@ tokenized_words = tokenizer.texts_to_sequences(tweetText)
 max_length = max(len(seq) for seq in tqdm(tokenized_words, desc="Nuh uh: "))
 padded_words = pad_sequences(tokenized_words, maxlen=max_length)
 
-#Y-data
+#Y-data - already in 1, 0 format
 tweet_type = trainingData['target'].values
 
 x_train, x_test, y_train, y_test = train_test_split(padded_words, tweet_type, random_state=42, test_size=0.2)
