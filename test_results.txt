@@ -4,12 +4,6 @@ Prediction: ['disaster']
 Text: Heard about #earthquake is different cities, stay safe everyone. 
 Prediction: ['disaster'] 
 ==================================================
-Text: there is a forest fire at spot pond, geese are fleeing across the street, I cannot save them all 
-Prediction: ['non disaster'] 
-==================================================
-Text: Apocalypse lighting. #Spokane #wildfires 
-Prediction: ['non disaster'] 
-==================================================
 Text: Typhoon Soudelor kills 28 in China and Taiwan 
 Prediction: ['disaster'] 
 ==================================================
